@@ -5,13 +5,16 @@
 
 <script type="text/javascript">
 
+alert("Let's party!");
 
+var ask = prompt('How long til party?');
+var count = parseInt(ask);
 
+for(var num = count; num >= 0; num = num - 1) {
 
-
-
-for(var num = 20; num <= 100; num = num + 10) {
-
+if (num === 0) {
+alert("LET'S PARTY!!!")
+}
 
 console.log(num);
 }
